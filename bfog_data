@@ -1,0 +1,28 @@
+FOGM HEADER
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+0000	u32 Magic		-	FOGM
+0004	u32 Length		-	0x00000614
+0008	u32 unk1		-	0x00000000
+000C	u32 unk2		-	0x00000000
+0010	u16 FOGD_count	-	0x0020
+0012	u16 unk3		-	0x0000
+
+
+FOGD SECTION
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+0000	u32 Magic		-	FOGD
+0004	u32 Length		-	0x00000030
+0008	u32 unk1		-	0x00000000
+000C	u32 unk2		-	0x00000000
+0010	float float1	-	startz or nearz
+0014	float float2	-	endz or farz
+0018	u32 unk3		-	possibly nearz float
+001C	u32 unk4		-	possibly farz float
+0020	GXColor {RGBA8}
+0024	u32 flags		-	0x0A010000 -or-
+	type	GX_FOG_ORTHO_LIN (0xA)
+	inuse	1
+	unk		0x00
+	unk		0x00
+0028	u32 unk6
+002C	u32 unk7

@@ -1,0 +1,37 @@
+LGHT HEADER
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+0000	-	u32 Magic		-	LGHT
+0004	-	u32 Length		-	0x00000BA8
+0008	-	u32 Flags		-	0x02000000
+000C	-	u32 Unk1		-	0x00000000
+0010	-	u16 LOBJ_Count	-	0x0024
+0012	-	u16 Other_Count	-	0x0008
+0014	-	u32 Unk2		-	0x000000FF
+0018	-	u32 Unk3		-	0x00000000
+001C	-	u32 Unk4		-	0x00000000
+0020	-	u32 Unk5		-	0x00000000
+0024	-	u32 Unk6		-	0x00000000
+
+
+LOBJ
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+0000	-	u32 Magic	-	LOBJ
+0004	-	u32 Length	-	0x00000050
+0008	-	u32 Flags	-	0x02000000
+000C	-	u32 Unk1	-	0x00000000
+0010	-	u32 Unk2	-	0x00000001
+0014	-	u32 Unk3	-	0x00000600
+0018	-	float X		-	4.0
+001C	-	float Y		-	4.0
+0020	-	float Z		-	4.0
+0024	-	u32 Unk4	-	0x00000000
+0028	-	u32 Unk5	-	0x00000000
+002C	-	u32 Unk6	-	0x00000000
+0030	-	float UnkFl	-	1.0
+0034	-	GXColor c1	-	ff,ff,ff,ff
+0038	-	GXColor c2	-	38,36,00,ff
+003C	-	float dirX	-	90.0
+0040	-	float dirY	-	0.5
+0044	-	float dirZ	-	0.5
+0048	-	u32 Unk7	-	0x00000000
+004C	-	u32 Unk8	-	0x00000000
