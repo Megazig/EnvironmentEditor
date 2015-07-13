@@ -538,6 +538,7 @@ class MainGUI(QWidget):
 
 	def SaveAs(self):
 		self.savedName = QFileDialog.getSaveFileName(self, 'Choose an environment archive', '', 'Archives (*.arc);;All Files(*)')
+		self.Save()
 
 	def Save(self):
 		#DO DOF
